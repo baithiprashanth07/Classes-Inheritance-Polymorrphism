@@ -1,0 +1,10 @@
+from teacher import Teacher
+t=Teacher()
+t.setid(10)
+t.setname('prashanth')
+t.setaddress('hno-1-61,Bussapur,siddipet')
+t.setsalary(25000.50)
+print('id=',t.getid())
+print('name=',t.getname())
+print('address=',t.getaddress())
+print('salary=',t.getsalary())
